@@ -2,7 +2,11 @@
 
 > An interactive grid-based pathfinding visualiser built with openFrameworks
 
-[Watch Example](https://youtube.com/shorts/dz1TYHVu3NA)
+
+
+https://github.com/user-attachments/assets/a1535d68-278b-497a-a374-607aab31f076
+
+
 ---
 
 ## Features
