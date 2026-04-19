@@ -1,0 +1,50 @@
+# A* Pathfinder
+
+> An interactive grid-based pathfinding visualiser built with openFrameworks
+
+![example1](images/example1)
+---
+
+## Features
+
+- 🗺️ **Visual grid** — resizable from 8×8 to 64×64 via a live slider
+- 🧱 **Wall painting** — click and drag to place obstacles
+- ⚡ **A\* with diagonals** — Euclidean heuristic, straight and diagonal movement
+- 🎮 **Live GUI controls** — OpenFrameworks oxGui
+
+---
+
+## Controls
+
+| Key + action | What it does |
+|---|---|
+| `s` + click | Set the start cell |
+| `t` + click | Set the target cell |
+| `w` + drag | Paint wall cells |
+| `a` | Run A\* and display the path |
+| `r` | Reset the grid |
+
+---
+
+## How to build
+
+1. Clone or download this repo into your `openFrameworks/apps/myApps/` folder
+2. Open the `.sln` file in Visual Studio
+3. Switch the build config to **Release / x64**
+4. Hit `Ctrl + Shift + B` — the binary will appear in `bin/`
+
+---
+## Future Imporovement 
+
+- [ ] Clean the code
+- [ ] Add Breadth First Seach
+- [ ] Add Depth First Search
+
+---
+
+## Dependencies
+
+| Library | Notes |
+|---|---|
+| openFrameworks 0.12+ | Core framework |
+| ofxGui | Bundled addon — no install needed |
